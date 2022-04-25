@@ -28,10 +28,10 @@ function SignUp () {
 
     return(
         <>
-            <h3>Crear usuario</h3>
-            <input onChange={userInputChangeHandler} type="text" placeholder="User name"/>
-            <input onChange={passwordInputChangeHandler} type="password" placeholder="Password"/>
-            <button onClick={clickHandler}>Crear</button>
+            <h3 className="marginTop">Usuario y contraseña</h3>
+            <input className="tamañoInput" onChange={userInputChangeHandler} type="text" placeholder="User name"/>
+            <input className="tamañoInput" onChange={passwordInputChangeHandler} type="password" placeholder="Password"/>
+            <button onClick={clickHandler}>Iniciar Sesión</button>
         </>
     )
 }

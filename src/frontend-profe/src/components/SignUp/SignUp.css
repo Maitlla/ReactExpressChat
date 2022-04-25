@@ -1,3 +1,12 @@
+/*
 button {
     align-self: end;
 }
+*/
+
+
+button {
+    background-color: rgb(122, 175, 245);
+    color: white;
+}
+

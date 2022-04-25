@@ -1,8 +1,7 @@
 :root {
   --inputsMargin: 10px;
-  --colorBackground: grey;
-  --colorMain: green;
-  --colorSecondary: cyan;
+  --colorMain: rgb(215, 215, 253);
+  --colorSecondary: rgb(201, 224, 255);
   --mainPadding: 10px;
 }
 
@@ -11,14 +10,36 @@
   height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 0px;
+
 }
 
 .flexColumn {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  background-size: cover;
+  width: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexSalir {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.flexEnviar {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 60px;
 }
 
 h1, h2, h3 {
@@ -30,9 +51,46 @@ input, button {
 }
 
 h1 {
-  color: var(--colorMain);
-}
+  color: rgb(122, 175, 245);
+} 
 
 h2, h3 {
-  color: var(--colorSecondary);
+  color: rgb(74, 102, 150);
+  margin-bottom: 10px;
 }
+
+.colorMorado {
+  color:rgb(177, 151, 242);
+}
+
+.colorVioleta {
+  background-color:rgb(215, 215, 253);
+}
+
+.colorAzul {
+  background-color: rgb(122, 175, 245);
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+.marginLeft {
+  margin-top: 0;
+  margin-left: 130px;
+}
+
+.botonRedondo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 0px;
+  color: white;
+}
+
+.tamañoInput {
+  width: 230px;
+  height: 20px;
+}
+

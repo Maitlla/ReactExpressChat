@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className={"flexColumn"}>
-      <h1>Chat</h1>
+      <h1 className='marginTop'>MyChat</h1>
       <Routes>
         <Route path='/chat/' element={<Chat/>}/>
         <Route path='/signup/' element={<SignUp/>}/>

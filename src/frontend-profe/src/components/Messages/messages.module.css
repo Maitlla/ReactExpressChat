@@ -1,17 +1,26 @@
 .messagesContainer {
-    background-color: var(--colorBackground);
+    background-image: url("../../fondoH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     overflow-y: auto;
-    max-height: 300px;
+    width: 350px;
+    min-height: 700px;
+    max-height: 730px;
+    margin-bottom: 30px;
 }
 
 .message {
-    width: 60%;
+    width: 70%;
+    align-self: start;
     background-color: var(--colorMain);
+    opacity: 0.6;
 }
 
 .myMessage {
     align-self: end;
     background-color: var(--colorSecondary);
+    opacity: 0.6;
 }
 
 ul, li {

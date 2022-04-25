@@ -41,7 +41,6 @@ function Messages () {
 
     return (
         <>
-            <h3>Mensajes</h3>
             <ul className={styles.messagesContainer + " flexColumn"}>
                 {messages}
             </ul>
