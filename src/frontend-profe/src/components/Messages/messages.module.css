@@ -5,8 +5,9 @@
     background-position: center;
     overflow-y: auto;
     width: 350px;
-    min-height: 700px;
-    max-height: 730px;
+    min-height: 500px;
+    max-height: 600px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -15,6 +16,7 @@
     align-self: start;
     background-color: var(--colorMain);
     opacity: 0.6;
+    margin-top: 5px;
 }
 
 .myMessage {
